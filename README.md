@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PassGuard - Gerenciador de Senhas Seguro
 
-## Getting Started
+## Visão Geral
 
-First, run the development server:
+PassGuard é um projeto educacional de gerenciador de senhas desenvolvido com React e Next.js. Este projeto foi criado com o propósito de aprender e demonstrar conceitos de desenvolvimento web moderno, incluindo geração de senhas, gerenciamento de estado com Zustand, e design de interface com Tailwind CSS.
 
-```bash
+## Aviso Importante
+
+**Este projeto é apenas para fins educacionais e de demonstração. Não é recomendado para uso com senhas reais ou informações sensíveis. As senhas são armazenadas localmente sem criptografia adequada.**
+
+## Funcionalidades
+
+- **Geração de Senhas Personalizáveis**: 
+  - Ajuste o comprimento da senha (8-20 caracteres)
+  - Selecione tipos de caracteres (maiúsculas, minúsculas, números, símbolos)
+  - Interface intuitiva com checkboxes e controle deslizante
+
+- **Cópia Rápida de Senhas**:
+  - Botão de cópia com feedback visual
+  - Notificações toast para confirmação de ações
+
+- **Armazenamento Local**:
+  - Salve senhas com informações de uso e categoria
+  - Demonstração de armazenamento usando Zustand e localStorage
+
+- **Interface Responsiva**:
+  - Design adaptável para desktop e dispositivos móveis
+  - Utilização de componentes UI modernos
+
+- **Gerenciamento de Senhas**:
+  - Visualize, edite e exclua senhas salvas
+  - Funcionalidade de busca para encontrar senhas rapidamente
+
+## Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Zustand](https://github.com/pmndrs/zustand) (para gerenciamento de estado)
+- [Lucide React](https://lucide.dev/) (para ícones)
+- [shadcn/ui](https://ui.shadcn.com/) (componentes UI)
+
+## Instalação
+
+1. Clone o repositório:
+
+```
+https://github.com/kant-dev/pass-guard
+```
+2. Entre na pasta
+```
+cd pass-guard
+```
+3. Instale das Dependências
+```
+npm i ou npm install
+```
+4. Inicie o Projeto
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+obs: tanto faz ser yarn ou npm, vai de sua prefererencia
