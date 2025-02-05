@@ -1,13 +1,12 @@
 "use client"
 
 import React, { useState } from 'react'
-import { Card, CardContent, CardDescription, CardFooter, CardTitle } from '../ui/card'
+import { Card, CardContent, CardDescription, CardTitle } from '../ui/card'
 import { Label } from '../ui/label'
 import { Input } from '../ui/input'
 import { Button } from '../ui/button'
 import { CheckCircle, CheckIcon, CopyIcon, SparklesIcon } from 'lucide-react'
 import { useToast } from '@/hooks/use-toast'
-import { Slider } from '../ui/slider'
 import { Checkbox } from '../ui/checkbox'
 import { generatePassword } from '@/utils/generate-password'
 import FormSavedPwd from '../Form/FormSavedPwd'
