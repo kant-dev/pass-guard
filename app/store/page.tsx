@@ -9,7 +9,7 @@ import { EyeIcon, EyeOffIcon, CopyIcon } from "lucide-react"
 import { usePasswordStore } from "@/storage/password-storage"
 import { Separator } from "@/components/ui/separator"
 
-export default function page() {
+export default function Page() {
   const { passwords, updatePassword, deletePassword } = usePasswordStore()
   const [editId, setEditId] = useState<string | null>(null)
   const [editUsage, setEditUsage] = useState("")
